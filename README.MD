@@ -11,6 +11,10 @@
 
 2.在本地/usr/local/bin/目录下保存iterm2-send-zmodem.sh 和iterm2-recv-zmodem.sh两个脚本
 
+```shell
+wget https://raw.githubusercontent.com/morethink/iterm2-zmodem/master/iterm2-recv-zmodem.sh
+wget https://raw.githubusercontent.com/morethink/iterm2-zmodem/master/iterm2-send-zmodem.sh
+```
 3.设置一下两个脚本的权限，一般 chmod 777 就行了
 
 ```bash
@@ -34,4 +38,4 @@ chmod 777 /usr/local/bin/iterm2-*
         Instant: checked
 ```
 
-![如图](https://github.com/aikuyun/iterm2-zmodem/blob/master/imgs/01.png)
+![如图](./imgs/01.png)
